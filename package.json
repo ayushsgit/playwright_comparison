@@ -1,0 +1,23 @@
+{
+  "name": "playwright_comparison",
+  "version": "1.0.0",
+  "description": "playwright comparison for images",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushsgit/playwright_comparison.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ayushsgit/playwright_comparison/issues"
+  },
+  "homepage": "https://github.com/ayushsgit/playwright_comparison#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9"
+  }
+}
