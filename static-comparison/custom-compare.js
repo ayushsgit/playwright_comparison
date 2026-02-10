@@ -1,9 +1,11 @@
+// command in terminal:  node custom-compare.js 
+
 const fs = require('fs');
 const PNG = require('pngjs').PNG;
 
 const pixelmatchImport = require('pixelmatch');
 const pixelmatch = pixelmatchImport.default || pixelmatchImport;
-
+// mamke an images folder
 const img1 = PNG.sync.read(fs.readFileSync('images/passing.png')); // Baseline
 const img2 = PNG.sync.read(fs.readFileSync('images/failing.png')); // Actual (Failing)
 
